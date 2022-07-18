@@ -12,3 +12,8 @@ const exams = [
     {name: 'Robert Kiyosaki', score: 2},
     {name: 'Keanu Reeves', score: 10}
 ];
+
+const sumaTotal = exams.reduce((accumulator, exam) => accumulator + exam.score, 0);  // primer ex.
+const examMedia = sumaTotal / exams.length;  // suma total entre numeros de examenes -> array.length
+
+console.log(examMedia);

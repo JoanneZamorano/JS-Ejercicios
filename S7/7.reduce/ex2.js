@@ -15,3 +15,6 @@ const exams = [
     {name: 'Robert Kiyosaki', score: 2},
     {name: 'Keanu Reeves', score: 10}
 ];
+
+const sumaTotalAprobados = exams.reduce((accumulator, exam) => exam.score >= 5 ? accumulator + exam.score :accumulator, 0);
+console.log(sumaTotalAprobados);

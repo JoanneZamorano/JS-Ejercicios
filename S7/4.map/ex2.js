@@ -7,5 +7,6 @@ const users = [
     {id:3, name: 'Pedro'}, 
     {id:4, name: 'Amanda'}];
 
-const newUsersName = users.map(user => user.name[0] === 'A' ? 'Anacleto' : user.name);
-console.log(newUsersName);
+                                    //si empieza por A, cambiar a Anacleto
+const newName = users.map(user => user.name[0] === 'A' ? 'Anacleto' : user.name);
+console.log(newName);

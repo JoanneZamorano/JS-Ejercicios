@@ -8,5 +8,5 @@ const cities = [
     {isVisited:true, name: 'Amsterdam'}, 
     {isVisited:false, name: 'Seul'}];
 
-const citiesName = cities.map(city => city.isVisited ? city.name + ' (Visitado)' : city.name);
-console.log(citiesName);
+const citiesNameVisited = cities.map(city => city.isVisited ? city.name + ' (Visitado)' : city.name);
+console.log(citiesNameVisited);

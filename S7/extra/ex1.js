@@ -10,3 +10,8 @@ const videogames = [
     {name: 'Genshin Impact', genders: ['RPG', 'Aventura'], score: 7.5},
     {name: 'Legend of Zelda: Breath of the wild', genders: ['RPG', 'La cosa más puto bonita que he visto nunca'], score: 10},
 ]
+
+const filterGenero = videogames.filter(videogame => !!videogame.genders.find(gender => gender === 'RGP'));
+const sumaTotalScore = rpgGames.reduce((accumulator, videogame) => accumulator + videogame.score, 0);     // ex 3 carpeta reduce
+const scoreMedia = sumaTotalScore / rpgGames.length; 
+console.log(scoreMedia);

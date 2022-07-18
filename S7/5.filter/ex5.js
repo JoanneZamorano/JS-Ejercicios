@@ -7,3 +7,6 @@ const streamers = [
     {name: 'Ibai', age: 25, gameMorePlayed: 'League of Legends'}, 
     {name: 'Reven', age: 43, gameMorePlayed: 'League of Legends'}, 
     {name: 'AuronPlay', age: 33, gameMorePlayed: 'Among Us'}];
+
+const lolNameIncludesU = streamers.filter(streamer => streamer.name.includes('u'));
+console.log(lolNameIncludesU);

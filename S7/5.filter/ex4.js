@@ -7,3 +7,6 @@ const streamers = [
     {name: 'Ibai', age: 25, gameMorePlayed: 'League of Legends'}, 
     {name: 'Reven', age: 43, gameMorePlayed: 'League of Legends'}, 
     {name: 'AuronPlay', age: 33, gameMorePlayed: 'Among Us'}];
+
+    const lolMorePlayedUnder30 = streamers.filter(streamer => streamer.gameMorePlayed === 'League of Legends' && streamer.age <30);
+    console.log(lolMorePlayedUnder30);

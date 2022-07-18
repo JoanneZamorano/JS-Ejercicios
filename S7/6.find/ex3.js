@@ -12,3 +12,10 @@ const mutations = [
     {name: 'Porompompero', description: 'Hace que el alien pueda adquirir la habilidad de tocar el tambor'},
     {name: 'Fly me to the moon', description: 'Permite volar, solo y exclusivamente a la luna'},
     {name: 'Andando que es gerundio', description: 'Invoca a un señor mayor como Personal Trainer'}];
+
+const searchcucus = aliens.find(alien => alien.name ==='Cucushumushu');
+const searchporom = mutations.find(mutation => mutation.name ==='Porompompero');
+
+const bothlist = {...searchcucus, mutation: {...searchporom}};  
+
+console.log(bothlist);

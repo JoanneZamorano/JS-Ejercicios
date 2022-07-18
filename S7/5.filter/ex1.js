@@ -1,3 +1,6 @@
+//COMPRENDIDO
+
+
 //Dado el siguiente array, utiliza .filter() para generar un nuevo array con los 
 //valores que sean mayor que 18
 

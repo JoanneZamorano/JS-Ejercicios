@@ -1,3 +1,9 @@
+//COMPRENDIDO
+
+
+
+
+
 //Dado el siguiente objeto, crea una copia usando spread operators.
 
 const toy = {

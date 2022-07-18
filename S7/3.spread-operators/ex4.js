@@ -1,3 +1,9 @@
+//COMPRENDIDO
+
+
+
+
+
 //Dado los siguientes objetos. Crea un nuevo objeto fusionando los dos con spread 
 //operators.
 

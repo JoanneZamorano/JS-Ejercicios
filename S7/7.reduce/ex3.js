@@ -1,3 +1,6 @@
+//COMPRENDIDO
+
+
 //Dado el siguiente array, haz la media de las notas de todos los examenes .reduce().
 
 const exams = [

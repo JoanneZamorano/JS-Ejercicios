@@ -1,3 +1,7 @@
+//COMPRENDIDO
+
+
+
 //Dado el siguiente array, devuelve un array con sus nombres utilizando .map().
 
 const users = [

@@ -1,3 +1,9 @@
+//COMPRENDIDO
+
+
+
+
+
 //Dado los siguientes arrays, crea un nuevo array juntandolos usando spread operatos
 
 const pointsList = [32, 54, 21, 64, 75, 43];

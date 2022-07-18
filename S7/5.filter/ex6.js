@@ -1,3 +1,6 @@
+//COMPRENDIDO
+
+
 //Dado el siguiente array, utiliza .filter() para generar un nuevo array con los 
 //streamers que incluyan el caracter 'Legends' en su propiedad .gameMorePlayed. 
 //Recomendamos usar la funcion .includes() para la comprobación.

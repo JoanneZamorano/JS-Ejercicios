@@ -1,3 +1,8 @@
+//COMPRENDIDO
+
+
+
+
 //Dado el siguiente array, devuelve una lista que contenga los valores de la propiedad 
 //.name y añade al valor de .name el string ' (Visitado)' cuando el valor de la 
 //propiedad isVisited = true.

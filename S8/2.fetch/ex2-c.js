@@ -1,5 +1,5 @@
-//En base al ejercicio anterior, crea un botón con el texto 'X' para cada uno de los p que hayas insertado y 
-//que si el usuario hace click en este botón eliminemos el parrafo asociado.
+// COMPRENDIDO
+
 
 const baseUrl = 'https://api.nationalize.io?name=';
 
@@ -31,8 +31,8 @@ const button$$ = document.createElement('button');
     button$$.addEventListener('click', () => { removeP(div$$) })
     document.body.appendChild(div$$);
 
-const removeP = (nodeEl$$) => {
-    nodeEl$$.remove();
+const removeP = (div$$) => {
+    div$$.remove();
 }
 
 const button$ = document.querySelector('button');

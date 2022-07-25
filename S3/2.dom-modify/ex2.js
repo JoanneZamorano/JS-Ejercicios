@@ -1,3 +1,6 @@
+// COMPRENDIDO
+
+
 const div$$ = document.createElement('div'); //creo el div
 const p$$ = document.createElement('p');  // creo p
 

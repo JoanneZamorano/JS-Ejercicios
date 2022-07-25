@@ -1,13 +1,15 @@
-const input$$ = document.querySelector('input');
+const baseUrl = 'https://api.nationalize.io?name=';
 
-const buton$$ = document.querySelector('button');
-
-const search = ()
-button$.addEventListener('click', search);
-
-
-buton$$.addEventListener('clic', fuction()) {
-    fetch('https://api.nationalize.io?name='+ input$$.value)
+function listener(){
+    fetch(baseUrl + input$$.value)
     .then(res => res.json())
-    .then(res => console.log(res));
+    .then(res => {console.log(res);})
 }
+
+const input$$ = document.querySelector('input');
+const buton$$ = document.querySelector('button');
+buton$$.addEventListener('click', listener);
+
+
+
+

@@ -1,3 +1,6 @@
-const showMeButton$$ = document.body.querySelector('.showme');
+// COMPRENDIDO
 
-console.log(showMeButton$$);
+
+const button$$ = document.body.querySelector('.showme');
+
+console.log(button$$);

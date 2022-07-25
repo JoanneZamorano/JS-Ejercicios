@@ -43,5 +43,5 @@ for (const user of users) {
     }
 }
 
-console.log('El volumen medio de los sonidos favoritos es de: ' + volumeInfo.totalVolume / volumeInfo.totalCount)
+console.log('El volumen medio de los sonidos favoritos es de: ' + volumeInfo.totalVolume / volumeInfo.totalCount);
 

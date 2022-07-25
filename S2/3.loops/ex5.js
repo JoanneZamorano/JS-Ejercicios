@@ -1,3 +1,6 @@
+//COMPRENDIDO
+
+
 const popularToys = [];
 const toys = [
     {id: 5, name: 'Buzz MyYear', sellCount: 10}, 
@@ -7,9 +10,8 @@ const toys = [
     {id: 40, name: 'El gato felix', sellCount: 35}]
 
 for (const toy of toys) {
-    for (const popularToys of toy.sellCount);
     if (toy.sellCount >= 15) {
-        popularToys.includes(toy);
+        popularToys.push(toy);
     }
 }
 console.log(popularToys);

@@ -1,3 +1,6 @@
-const showMeP$$ = document.body.querySelector('#pillado');
+// COMPRENDIDO
 
-console.log(showMeP$$);
+
+const p$$ = document.body.querySelector('#pillado');
+
+console.log(p$$);

@@ -1,3 +1,5 @@
+//COMPRENDIDO
+
 
 const movies = [
     {name: "Your Name", durationInMinutes: 130},
@@ -13,7 +15,6 @@ const movies = [
     const longMovies = [];
 
 for (let index = 0; index < movies.length; index++) {
-        
         const movie = movies[index];
         
         if (movie.durationInMinutes < 100) {

@@ -3,8 +3,6 @@
 
 
 
-
-
 const rickAndMortyCharacters = ["Rick", "Beth", "Jerry"];
 
 rickAndMortyCharacters.push('Morty', 'Summer'); // push suma al final del array

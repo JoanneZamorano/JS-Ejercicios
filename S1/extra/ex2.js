@@ -1,3 +1,6 @@
+//COMPRENDIDO
+
+
 const fruits = ['Strawberry', 'Banana', 'Orange', 'Apple'];
 
 const foodSchedule = [

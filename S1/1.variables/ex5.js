@@ -3,8 +3,6 @@
 
 
 
-
-
 let firstName = 'Jon';
 let lastName = 'Snow';
 let age = 24;

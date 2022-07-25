@@ -1,3 +1,6 @@
+//COMPRENDIDO
+
+
 const toys = [
     {id: 5, name: 'Buzz MyYear'}, 
     {id: 11, name: 'Action Woman'}, 

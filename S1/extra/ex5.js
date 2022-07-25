@@ -1,3 +1,6 @@
+//COMPRENDIDO
+
+
 const products = [
     {name: 'Gorra de rodilla', sellCount: 10},
     {name: 'Pantalón de pana', sellCount: 302},

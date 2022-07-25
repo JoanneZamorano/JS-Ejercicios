@@ -1,3 +1,6 @@
-const allP$$ = document.body.querySelectorAll('p');
+// COMPRENDIDO
 
-console.log(allP$$);
+
+const p$$ = document.body.querySelectorAll('p');
+
+console.log(p$$);

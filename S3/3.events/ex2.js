@@ -1,3 +1,6 @@
+// COMPRENDIDO
+
+
 function elementFocus(event){
     console.log(event.target.value);
 }

@@ -14,7 +14,7 @@ function createApp() {
                 <h2>${planet.name}</h2>
             `
 
-            planet$$.addEventListener('click', () => getCharactersFilteredByPlanet(planet.id));
+            imagen$$.addEventListener('click', () => getCharactersFilteredByPlanet(planet.id));
 
             planets$$.appendChild(planet$$)
         }

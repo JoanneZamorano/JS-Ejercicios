@@ -1,5 +1,8 @@
-const removeAll$$ = document.querySelectorAll('.fn-remove-me');
+// COMPRENDIDO
 
-for (const removeMe$$ of removeAll$$) {
-    removeMe$$.remove();
+
+const nodos$$ = document.querySelectorAll('.fn-remove-me');
+
+for (const nodo$$ of nodos$$) {
+    nodo$$.remove();
 }

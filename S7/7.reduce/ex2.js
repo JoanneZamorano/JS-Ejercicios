@@ -1,10 +1,6 @@
 //COMPRENDIDO
 
 
-
-//Dado el siguiente array, haz una suma de todos las notas de los examenes de los 
-//alumnos que esten aprobados usando la función .reduce().
-
 //El resultado sería 42.
 
 const exams = [

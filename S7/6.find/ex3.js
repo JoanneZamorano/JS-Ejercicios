@@ -1,10 +1,6 @@
 //COMPRENDIDO
 
 
-//Dado el siguiente javascript, usa .find() para econtrar el alien de nombre 
-//'Cucushumushu' y la mutación 'Porompompero'. Una vez que los encuentres, usa spread 
-//operator para fusionarlos teniendo en cuenta que el objeto de la mutación lo queremos
-//meter en la propiedad .mutation del objeto fusionado.
 
 const aliens = [
     {name: 'Zalamero', planet: 'Eden', age: 4029},
